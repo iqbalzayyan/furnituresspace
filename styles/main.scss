@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+$smallMobile: 320px;
+$mediumMobile: 375px;
+$largeMobile: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptopMedium: 1366px;
+$laptopLarge: 1440px;
+@media (min-width: $smallMobile) and (max-width: $largeMobile) {
+    .title {
+        padding: 0 46.6px !important;
+        font-size: 36px !important;
+    }
+    .subtitle {
+        padding: 0 !important;
+        font-size: 16px !important;
+    }
+    .images-content {
+        img {
+            width: 90%;
+            margin: 0 5%;
+        }
+    }
+    .section-partner {
+        img {
+            width: 90%;
+        }
+    }
+    label {
+        width: 250px !important;
+        .input-custom {
+            width: 250px !important;
+        }
+    }
+}
+
+@media (min-width: $tablet) and (max-width: $tablet) {
+    .title {
+        padding: 0 194.2px !important;
+        font-size: 36px !important;
+    }
+    .subtitle {
+        padding: 0 150px !important;
+        font-size: 16px !important;
+    }
+    .images-content {
+        img {
+            width: 109%;
+        }
+    }
+    .section-partner {
+        img {
+            width: 90%;
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    .title {
+        padding: 0 271.5px !important;
+    }
+    .subtitle {
+        padding: 0 150px !important;
+    }
+}
+
+@media (min-width: $laptopMedium) and (max-width: $laptopMedium) {
+    .title {
+        padding: 0 361.5px !important;
+    }
+    .subtitle {
+        padding: 0 350px !important;
+    }
+}
+
+@media (min-width: $laptopLarge) and (max-width: $laptopLarge) {
+    .title {
+        padding: 0 451.5px !important;
+    }
+    .subtitle {
+        padding: 0 450px !important;
+    }
+}
+
+body {
+    header {
+        width: auto;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .hero {
+            .heading {
+                margin-top: 152px;
+                .title {
+                    padding: 0 361.5px;
+                    color: #202020;
+                    font-size: 46px;
+                }
+                .subtitle {
+                    padding: 0 350px;
+                    font-size: 18px;
+                }
+                .btn-primary {
+                    padding: 8px 36px 8px;
+                    color: #fff;
+                    background-color: #E69D9D;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 26px;
+                    border: none;
+                    border-radius: 10px;
+                    &:hover {
+                        color: #E69D9D;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .section-carousel {
+        margin-top: 84px;
+        .carousel {
+            margin-top: 20px !important;
+            margin-bottom: 10px !important;
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        width: auto;
+                        margin: 0 auto !important;
+                    }
+                    .carousel-captions {
+                        position: absolute;
+                        top: 15%;
+                        right: 15%;
+                        bottom: 1.25rem;
+                        left: 10%;
+                        h5 {
+                            color: #202020;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                        p {
+                            color: #202020;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-content {
+        margin-top: 72px;
+        .text-content {
+            margin-bottom: 20px;
+        }
+        .images-content {
+            .img-item {
+                position: relative;
+                .caption-text1 {
+                    position: absolute;
+                    top: 85%;
+                    right: 0;
+                    bottom: 0;
+                    left: 10%;
+                    color: #202020;
+                    text-decoration: none;
+                }
+            }
+            .img-item1 {
+                position: relative;
+                .caption-text2 {
+                    position: absolute;
+                    top: 30%;
+                    right: 0;
+                    bottom: 0;
+                    left: 10%;
+                    color: #202020;
+                    text-decoration: none;
+                }
+                .img-item2 {
+                    position: relative;
+                    .caption-text3 {
+                        position: absolute;
+                        top: 67%;
+                        right: 0;
+                        bottom: 0;
+                        left: 10%;
+                        color: #202020;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .section-partner {
+        margin-top: 82px;
+        margin-bottom: 20px;
+    }
+    .footer {
+        margin-top: 72px;
+        padding-top: 50px;
+        background-color: #F5DFDF;
+        .footer-logo {
+            margin-bottom: 50px;
+        }
+        .row-custom,
+        .accordion-custom {
+            h5 {
+                font-size: 20px !important;
+                font-weight: 600 !important;
+                color: #202020 !important;
+            }
+            a {
+                color: #202020;
+                text-decoration: none;
+                font-size: 18px !important;
+                font-weight: 400 !important;
+            }
+        }
+        .row-custom {
+            margin-top: 100px !important;
+            label {
+                width: 300px;
+                .input-custom {
+                    border: none;
+                    border-radius: 10px;
+                    width: 300px;
+                    background-color: #EFEFEF;
+                }
+                .button-custom {
+                    right: 0;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #D28383;
+                }
+            }
+        }
+        .copyright {
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+    }
+}
